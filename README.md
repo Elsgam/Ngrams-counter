@@ -67,6 +67,18 @@ unigramsFreq = collections.Counter(unigrams)
 # What are the ten words most used?
 unigramsFreq.most_common(10)
 ```
+```
+[(('to',), 2159),
+ (('you',), 1812),
+ (('a',), 1338),
+ (('the',), 1207),
+ (('I',), 1088),
+ (('and',), 860),
+ (('in',), 829),
+ (('is',), 811),
+ (('u',), 783),
+ (('i',), 739)]
+```
 
 Just like we did with the unigrams, we going to find all the bigrams and print the ten most used:
 ```ruby
@@ -76,6 +88,18 @@ esBigramFreq = collections.Counter(esBigrams)
 # what are the ten most popular ngrams in this Spanish corpus?
 esBigramFreq.most_common(10)
 ```
+```
+[(('are', 'you'), 104),
+ (('in', 'the'), 86),
+ (('have', 'a'), 80),
+ (('want', 'to'), 78),
+ (('will', 'be'), 78),
+ (('to', 'be'), 78),
+ (('in', 'a'), 74),
+ (('to', 'get'), 72),
+ (('you', 'are'), 71),
+ (('have', 'to'), 70)]
+```
 
 Finally, we did the same process with claculate the ten trigrams most used: 
 ```
@@ -84,6 +108,18 @@ trigramFreq = collections.Counter(trigrams)
 
 # what are the ten most popular tri-grams?
 trigramFreq.most_common(10)
+```
+```
+[(('Ill', 'call', 'later'), 39),
+ (('hamSorry', 'Ill', 'call'), 38),
+ (('have', 'won', 'a'), 23),
+ (('I', 'miss', 'you'), 22),
+ (('prize', 'GUARANTEED', 'Call'), 20),
+ (('å£1000', 'cash', 'or'), 17),
+ (('a', 'great', 'day'), 17),
+ (('are', 'trying', 'to'), 16),
+ (('Account', 'Statement', 'for'), 16),
+ (('are', 'you', 'doing'), 16)]
 ```
 
 ## View in colab:
