@@ -67,6 +67,7 @@ unigramsFreq = collections.Counter(unigrams)
 # What are the ten words most used?
 unigramsFreq.most_common(10)
 ```
+### Results of unigrams
 ```
 [(('to',), 2159),
  (('you',), 1812),
@@ -88,6 +89,7 @@ esBigramFreq = collections.Counter(esBigrams)
 # what are the ten most popular ngrams in this Spanish corpus?
 esBigramFreq.most_common(10)
 ```
+### Results of bigrams:
 ```
 [(('are', 'you'), 104),
  (('in', 'the'), 86),
@@ -109,6 +111,7 @@ trigramFreq = collections.Counter(trigrams)
 # what are the ten most popular tri-grams?
 trigramFreq.most_common(10)
 ```
+### Results of trigrams:
 ```
 [(('Ill', 'call', 'later'), 39),
  (('hamSorry', 'Ill', 'call'), 38),
