@@ -59,6 +59,7 @@ trigrams = ngrams(tokenized, 3)
 # list(esBigrams)[:10]
 ```
 
+## Unigrams
 Now, we going to obtain the frequency of all the unigrams for then just show the ten most used:
 ```ruby
 # get the frequency of the unigram:
@@ -67,7 +68,7 @@ unigramsFreq = collections.Counter(unigrams)
 # What are the ten words most used?
 unigramsFreq.most_common(10)
 ```
-### Results of unigrams
+### Results of unigrams:
 ```
 [(('to',), 2159),
  (('you',), 1812),
@@ -81,6 +82,7 @@ unigramsFreq.most_common(10)
  (('i',), 739)]
 ```
 
+## Bigrams
 Just like we did with the unigrams, we going to find all the bigrams and print the ten most used:
 ```ruby
 # get the frequency of each bigram in our corpus
@@ -103,6 +105,7 @@ esBigramFreq.most_common(10)
  (('have', 'to'), 70)]
 ```
 
+## Trigrams
 Finally, we did the same process with claculate the ten trigrams most used: 
 ```
 # get the frequency of each trigram
